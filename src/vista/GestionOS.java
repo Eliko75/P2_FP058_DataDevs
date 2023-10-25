@@ -1,10 +1,10 @@
 package vista;
 
-public class GestionOS {
+public class GestionOS { 
 	public void inicio() {
 		
 		boolean salir = false;
-		String opcio;
+		String opcion;
 		
 		do {
 			
@@ -19,8 +19,8 @@ public class GestionOS {
 			System.out.println("9. Mostar pedidos pendientes");
 			System.out.println("10. Mostrar pedidos enviados" );
 			System.out.println("0. Salir" );
-			opcio = pedirOpcion();
-			switch (opcio) {
+			opcion = pedirOpcion();
+			switch (opcion) {
 			case "1":
 				añadirArticulo();
 				break;
